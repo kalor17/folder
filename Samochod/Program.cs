@@ -12,7 +12,7 @@ namespace Samochod
         {
             Car zbyszek = Car.Create(2.0, "zbychu");
             Console.WriteLine(zbyszek.marka);
-            
+            Console.WriteLine(zbyszek.pojSilnika);
         }
     }
 }
